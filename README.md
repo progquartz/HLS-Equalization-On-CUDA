@@ -13,6 +13,7 @@
 	 
 
 ## 주요 기능
+![Image](https://github.com/user-attachments/assets/833f3656-ef27-4387-89b9-ef78c5a24587)
 
 - **색상 평활화 (Histogram Equalization)**
   - **RGB 평활화:** 각 채널(B, G, R)에 대해 개별적으로 히스토그램 평활화를 수행합니다.
@@ -30,9 +31,10 @@
 - **OpenMP 기반 CPU 병렬 처리**
   - OpenMP를 활용해 CPU에서 다중 스레드로 히스토그램 계산 및 평활화 작업을 병렬화.
   - Serial과 Parallel 두 방식의 구현으로 성능 차이를 비교할 수 있습니다.
-  - 
+  
 
 ## 성능
+![Image](https://github.com/user-attachments/assets/79ef51c0-ef4a-4e4d-ab4e-661a7569f311)
 - **성능 측정 결과**
   - 178 Frame(1920 x 1080) 의 영상 기준
   - **Serial의 경우** : 53944.1ms 소모
